@@ -1,8 +1,3 @@
-/*************************************************************
-* Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "sort_test.cpp"
-* Function:  Test the correction of all of the sorting algorithms
-*************************************************************/
 #include <iostream>
 #include <stdlib.h>
 #include <string.h>
@@ -16,8 +11,9 @@
 #include "ShellSort.h"
 #include "HeapSort.h"
 #include "CountSort.h"
+#include "RadixSort.h"
 
-#define MAX_LEN 1000
+#define MAX_LEN 100
 #define MAX_NUM 10000
 
 struct Test
@@ -84,17 +80,39 @@ void test_count_sort()
         temp[i] = rand() / (RAND_MAX + 0.0) * MAX_NUM;
         array[i] = temp[i];
     }
-    count_ = CountSort(array, MAX_LEN, MAX_NUM);
+    CountSort(array, MAX_LEN, MAX_NUM);
     printf("Before Sort\t\tCountSort\n");
     for (int i = 0; i < MAX_LEN; i++)
         printf("%-15d %-15d\n", temp[i], array[i]);
-    printf("total count: %ld\n", count_);
+    return;
+}
+
+//测试基数排序
+void test_radix_sort()
+{
+    int temp[MAX_LEN] = {0};
+    int array[MAX_LEN] = {0};
+    long long int count_ = 0;
+    srand(time(NULL));
+    //数组初始化(生成随机数)
+    for (int i = 0; i < MAX_LEN; i++)
+    {
+        //rand()函数的范围为0~32767(即RAND_MAX)
+        //要生成比它大的数应先生成0~1的随机浮点数，再乘以你想要的数的最大值
+        temp[i] = rand() / (RAND_MAX + 0.0) * MAX_NUM;
+        array[i] = temp[i];
+    }
+    RadixSort(array, MAX_LEN);
+    printf("Before Sort\t\tRadixSort\n");
+    for (int i = 0; i < MAX_LEN; i++)
+        printf("%-15d %-15d\n", temp[i], array[i]);
     return;
 }
 
 int main()
 {
     //test_count_sort();
+    //test_radix_sort();
     test_general_sort();
     return 0;
 }
