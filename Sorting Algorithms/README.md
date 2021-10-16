@@ -21,7 +21,8 @@
 - **计数排序**
   - `CountSort.h`
 - **基数排序**
-  - `RadixSort.h`
+  - `RadixSort_int.h`
+  - `RadixSort_string.h`
 - **排序算法测试文件**
   - `sort_test.cpp`
 - **说明文档(本文件)**
