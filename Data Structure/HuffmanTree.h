@@ -8,6 +8,7 @@
 #include <iostream>
 #include <stdlib.h>
 #include <string.h>
+#include <time.h>
 #define MAXCODELEN 1024
 
 struct HuffmanTreeNode
@@ -181,3 +182,24 @@ void HuffmanTree::PrintCode()
         printf("weight: %d\t\t HuffmanCode: %s\n", this->HNode[i].weight, this->HNode[i].code);
     return;
 }
+
+/*
+////////////////////////////test/////////////////////////////
+#define MAX_LEN 100
+
+int main()
+{
+    int weight[MAX_LEN] = {0};
+    srand(time(NULL));
+    //数组初始化(生成随机数)
+    for (int i = 0; i < MAX_LEN; i++)
+        weight[i] = rand() / (RAND_MAX + 0.0) * (MAX_LEN * 10);
+
+    HuffmanTree tree;
+    tree.CreatHuffmanTree(weight, MAX_LEN);
+    tree.GenHuffmanCode();
+    tree.PrintTree();
+    tree.PrintCode();
+}
+////////////////////////////test/////////////////////////////
+*/
