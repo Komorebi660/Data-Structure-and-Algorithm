@@ -1,7 +1,5 @@
 /*************************************************************
 * Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "Jacobi.cpp"
-* Function:  Calculate All Eigenvalues of a Real Symmetric Matrix
 *************************************************************/
 #include <stdio.h>
 #include <stdlib.h>

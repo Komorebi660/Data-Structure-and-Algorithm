@@ -1,7 +1,5 @@
 /*************************************************************
 * Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "LinearEquationsSlover.cpp"
-* Function:  Calculate Linear Equations Directly
 *************************************************************/
 #include <stdio.h>
 #include <stdlib.h>

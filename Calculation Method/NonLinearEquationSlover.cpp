@@ -1,7 +1,5 @@
 /*************************************************************
 * Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "NonLinearEquationSlover.cpp"
-* Function:  Calculate Nonlinear Equation by Iteration
 *************************************************************/
 #include <stdio.h>
 #include <math.h>

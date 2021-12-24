@@ -1,12 +1,11 @@
 /*************************************************************
 * Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "PowerMethod.cpp"
-* Function:  Calculate MAX and Min eigenvalue of a matrix
 *************************************************************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <math.h>
+#include <stdbool.h>
 
 #define N 100
 #define EPSILON 1e-5
