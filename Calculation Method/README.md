@@ -8,10 +8,10 @@
 
 - [最小二乘拟合](./LeastSquareFitting.c)
 
-- 插值算法([Newton-Lagrange](./Newton_Lagrange_Interpolation.c)、[三次样条插值](./Cubic_Spline_Interpolation.c))
+- [Newton插值](./Newton_Lagrange_Interpolation.c)、[Lagrange插值](./Newton_Lagrange_Interpolation.c)、[三次样条插值](./Cubic_Spline_Interpolation.c)
 
 - 自动误差控制的[数值微分](./Differential.c)
 
-- [复化梯形积分与Romberg积分](./Compound.c)
+- [复化积分](./Compound.c)与[Romberg积分](./Compound.c)
 
-- 数值求解微分方程的[Euler-Runge-Kutta]方法(./Euler_Runge_Kutta.c)
+- 数值求解微分方程的[Euler方法](./Euler_Runge_Kutta.c)和[Runge-Kutta方法](./Euler_Runge_Kutta.c)
