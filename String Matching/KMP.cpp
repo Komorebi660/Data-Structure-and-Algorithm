@@ -1,8 +1,8 @@
 /*************************************************************
-* Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "KMP.h"
-* Function: KMP String Mtching Algorithm
-*************************************************************/
+ * Copyright © 2022 Komorebi660 All rights reserved.
+ * File Name: "KMP.h"
+ * Function: KMP String Mtching Algorithm
+ *************************************************************/
 #include <stdio.h>
 #include <string.h>
 

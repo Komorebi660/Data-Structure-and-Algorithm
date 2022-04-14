@@ -1,8 +1,8 @@
 /*************************************************************
-* Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "Select.h"
-* Function:  Select the i-th number in array
-*************************************************************/
+ * Copyright © 2022 Komorebi660 All rights reserved.
+ * File Name: "Select.h"
+ * Function:  Select the i-th number in array
+ *************************************************************/
 #include <iostream>
 #include <time.h>
 using namespace std;

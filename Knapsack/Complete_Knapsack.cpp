@@ -1,7 +1,7 @@
 /*************************************************************
-* Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "Complete_Knapsack.cpp"
-*************************************************************/
+ * Copyright © 2022 Komorebi660 All rights reserved.
+ * File Name: "Complete_Knapsack.cpp"
+ *************************************************************/
 #include <stdio.h>
 
 int W[200];

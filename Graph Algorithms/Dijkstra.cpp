@@ -1,7 +1,7 @@
 /*************************************************************
-* Copyright © 2021 Komorebi660 All rights reserved.
-* File Name: "Dijkstra.cpp"
-*************************************************************/
+ * Copyright © 2022 Komorebi660 All rights reserved.
+ * File Name: "Dijkstra.cpp"
+ *************************************************************/
 #include <iostream>
 #include <stdlib.h>
 #include <limits.h>
