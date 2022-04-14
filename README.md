@@ -24,4 +24,4 @@
 
 - 其它
 
-分位点查找算法[Select Algorithm](./Select%20Algorithm/README.md)、字符串匹配[String Matching](./String%20Matching/README.md)、有信息搜索[Informated Search](./Search/README.md)
+分位点查找算法[Select Algorithm](./Select%20Algorithm/README.md)、字符串匹配[String Matching](./String%20Matching/README.md)
